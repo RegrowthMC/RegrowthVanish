@@ -2,4 +2,4 @@ name: RegrowthVanish
 version: ${version}+${commit}
 main: org.lushplugins.regrowthvanish.RegrowthVanish
 api-version: '1.21'
-github-repo: ProjectOwner/RegrowthVanish
+github-repo: RegrowthMC/RegrowthVanish
