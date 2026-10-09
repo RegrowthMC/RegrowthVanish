@@ -1,5 +1,5 @@
-name: ProjectName
+name: RegrowthVanish
 version: ${version}+${commit}
-main: org.lushplugins.projectname.ProjectName
+main: org.lushplugins.regrowthvanish.RegrowthVanish
 api-version: '1.21'
-github-repo: ProjectOwner/ProjectName
+github-repo: ProjectOwner/RegrowthVanish

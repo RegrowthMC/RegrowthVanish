@@ -44,7 +44,7 @@ tasks {
 
     shadowJar {
         enableAutoRelocation = true
-        relocationPrefix = "org.lushplugins.projectname.libraries"
+        relocationPrefix = "org.lushplugins.regrowthvanish.libraries"
 
         minimize()
 
