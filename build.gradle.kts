@@ -15,15 +15,17 @@ repositories {
     mavenCentral()
     maven("https://oss.sonatype.org/content/groups/public/")
     maven("https://repo.papermc.io/repository/maven-public/") // Paper
+    maven("https://repo.lushplugins.org/snapshots/") // LushLib
 }
 
 dependencies {
     // Dependencies
     compileOnly("io.papermc.paper:paper-api:26.2.build.+")
 
-    // Soft Dependencies
-
     // Libraries
+    implementation("org.lushplugins.lushlib:utils:1.0.2")
+    implementation("io.github.revxrsal:lamp.common:4.0.0-rc.18")
+    implementation("io.github.revxrsal:lamp.bukkit:4.0.0-rc.18")
 }
 
 java {
@@ -64,11 +66,11 @@ tasks {
     }
 
     runServer {
-        minecraftVersion("1.21.11")
+        minecraftVersion("26.2")
 
         downloadPlugins {
-            modrinth("viaversion", "5.7.1")
-            modrinth("viabackwards", "5.7.1")
+            modrinth("viaversion", "5.12.1")
+            modrinth("viabackwards", "5.12.1")
         }
     }
 }
